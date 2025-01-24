@@ -80,6 +80,15 @@ export default function Navbar() {
           >
             Blog
           </Link>
+{/*Top up nav for testing */}
+<Link
+            href="/deposit"
+            className="hover:text-purple-900 transition-colors"
+          >
+            Deposit
+          </Link>
+
+
         </div>
 
         {/* Desktop Buttons */}
@@ -117,7 +126,7 @@ export default function Navbar() {
               Documentation
             </Link>
             <Link
-              href="/blog"
+              href="/deposit"
               className="text-purple-700 hover:text-purple-900 transition-colors px-2 py-1"
             >
               Blog
